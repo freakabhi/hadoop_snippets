@@ -1,0 +1,6 @@
+git init 
+git status -
+git add <files>
+git commit -m "comment"
+git remote add origin https://github.com/freakabhi/hadoop.git
+git push -u origin master
