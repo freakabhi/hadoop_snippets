@@ -68,3 +68,22 @@ iptables        0:off   1:off   2:on    3:on    4:on    5:on    6:off
 [root@centostemplate selinux]# chkconfig --list iptables
 iptables        0:off   1:off   2:off   3:off   4:off   5:off   6:off
 
+##### naming VM
+[root@centostemplate ~]# cat /etc/sysconfig/network
+NETWORKING=yes
+HOSTNAME=localhost.localdomain
+GATEWAY=192.168.81.2
+
+NETWORKING=yes
+HOSTNAME=centostemplage.hguy.com
+GATEWAY=192.168.81.2
+
+[root@centostemplate ~]# cat /etc/hosts
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+192.168.81.10  centostemplage.hguy.com centOstemplate
+
+	
+##
+

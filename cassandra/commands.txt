@@ -106,4 +106,10 @@ vm1@ubuntu:~/cassandra/apache-cassandra-2.0.7$ bin/nodetool compact playground m
 ##TTL time to live
 insert into table... TTL 30; record will be there for 30 seconds.
 
-## update table using TTL  500...
+## update table using TTL  500... 
+###################### HARDWARE recommandation 
+
+http://www.datastax.com/wp-content/uploads/2014/01/WP-DataStax-Enterprise-Reference-Architecture.pdf
+
+https://aws.amazon.com/ec2/instance-types/
+https://cloud.google.com/products/
